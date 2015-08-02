@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Traffic Signal Head for Arduino"
 Date "2 aug 2015"
-Rev ""
+Rev "1.01"
 Comp ""
 Comment1 ""
 Comment2 ""
