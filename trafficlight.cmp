@@ -1,24 +1,24 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Sun 19 Jul 2015 10:59:48 BST
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Sun 02 Aug 2015 22:52:59 BST
 
 BeginCmp
 TimeStamp = /55AB6EFE;
 Reference = D1;
 ValeurCmp = Green LED;
-IdModule  = LED-10MM;
+IdModule  = LED-G-10MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55AB6F0D;
 Reference = D2;
 ValeurCmp = Amber LED;
-IdModule  = LED-10MM;
+IdModule  = LED-A-10MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55AB6F1C;
 Reference = D3;
 ValeurCmp = Red LED;
-IdModule  = LED-10MM;
+IdModule  = LED-R-10MM;
 EndCmp
 
 BeginCmp

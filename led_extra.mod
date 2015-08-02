@@ -1,9 +1,11 @@
-PCBNEW-LibModule-V1  Sun 02 Aug 2015 21:24:30 BST
+PCBNEW-LibModule-V1  Sun 02 Aug 2015 23:06:26 BST
 # encoding utf-8
 Units mm
 $INDEX
 KBSQLED10
-LED-10MM
+LED-A-10MM
+LED-G-10MM
+LED-R-10MM
 $EndINDEX
 $MODULE KBSQLED10
 Po 0 0 0 15 53CC5075 00000000 ~~
@@ -78,15 +80,15 @@ Ne 0 ""
 Po 3.81 -3.81
 $EndPAD
 $EndMODULE KBSQLED10
-$MODULE LED-10MM
+$MODULE LED-A-10MM
 Po 0 0 0 15 53E72BC1 00000000 ~~
-Li LED-10MM
-Cd LED 10mm - Lead pitch 100mil (2,54mm)
-Kw LED led 10mm 10MM 100mil 2,54mm 2.54mm
+Li LED-A-10MM
+Cd LED 10mm amber - Lead pitch 100mil (2.54mm)
+Kw LED amber 10mm 100mil 2.54mm
 Sc 0
 AR 
 Op 0 0 0
-T0 0 -3 0.762 0.762 0 0.0889 N V 21 N "LED-10MM"
+T0 0 -3 0.762 0.762 0 0.0889 N V 21 N "LED-A-10MM"
 T1 0 3.5 0.762 0.762 0 0.0889 N V 21 N "VAL***"
 T2 -3.5 0 2 2 0 0.15 N V 21 N "+"
 DA 0 0 5 2.29 3108 0.15 21
@@ -107,10 +109,80 @@ Ne 0 ""
 Po 1.27 0
 $EndPAD
 $SHAPE3D
-Na "discret/leds/led5_vertical_red.wrl"
+Na "discret/leds/led5_vertical_amarelo.wrl"
 Sc 2 2 2
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE LED-10MM
+$EndMODULE LED-A-10MM
+$MODULE LED-G-10MM
+Po 0 0 0 15 53E72BC1 00000000 ~~
+Li LED-G-10MM
+Cd LED 10mm green - Lead pitch 100mil (2.54mm)
+Kw LED green 10mm 100mil 2.54mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 0.762 0.762 0 0.0889 N V 21 N "LED-G-10MM"
+T1 0 3.5 0.762 0.762 0 0.0889 N V 21 N "VAL***"
+T2 -3.5 0 2 2 0 0.15 N V 21 N "+"
+DA 0 0 5 2.29 3108 0.15 21
+DS 5 -2.29 5 2.29 0.15 21
+DC 0 0 0 -5 0.15 21
+$PAD
+Sh "1" R 1.8 1.8 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "discret/leds/led5_vertical_verde.wrl"
+Sc 2 2 2
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LED-G-10MM
+$MODULE LED-R-10MM
+Po 0 0 0 15 53E72BC1 00000000 ~~
+Li LED-R-10MM
+Cd LED 10mm red - Lead pitch 100mil (2.54mm)
+Kw LED red 10mm 100mil 2.54mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 0.762 0.762 0 0.0889 N V 21 N "LED-R-10MM"
+T1 0 3.5 0.762 0.762 0 0.0889 N V 21 N "VAL***"
+T2 -3.5 0 2 2 0 0.15 N V 21 N "+"
+DA 0 0 5 2.29 3108 0.15 21
+DS 5 -2.29 5 2.29 0.15 21
+DC 0 0 0 -5 0.15 21
+$PAD
+Sh "1" R 1.8 1.8 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "led5_vertical_red.wrl"
+Sc 2 2 2
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LED-R-10MM
 $EndLIBRARY
