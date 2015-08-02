@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:trafficlight-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 jul 2015"
+Date "2 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -178,4 +179,18 @@ Text Label 3550 3150 0    60   ~ 0
 AMBER
 Text Label 3550 3050 0    60   ~ 0
 GREEN
+Text Notes 2850 3600 0    60   ~ 0
+GND
+Text Notes 2850 3500 0    60   ~ 0
+D13
+Text Notes 2850 3400 0    60   ~ 0
+D12
+Text Notes 2850 3200 0    60   ~ 0
+D10
+Text Notes 2850 3300 0    60   ~ 0
+D11
+Text Notes 2850 3100 0    60   ~ 0
+D9
+Text Notes 2250 3300 0    60   ~ 0
+Arduino\npin numbers
 $EndSCHEMATC
