@@ -1,0 +1,67 @@
+PCBNEW-LibModule-V1  Sun 02 Aug 2015 21:23:35 BST
+# encoding utf-8
+Units mm
+$INDEX
+HDR-6-HORIZ-L
+$EndINDEX
+$MODULE HDR-6-HORIZ-L
+Po 0 0 0 15 55AB74BE 00000000 ~~
+Li HDR-6-HORIZ-L
+Cd Pin header connector 6 pins horiz
+Kw CONN DEV HORIZ 2.54mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 1.72974 1.08712 0 0.27178 N V 21 N "HDR-6"
+T1 0 -5.5 1.524 1.016 0 0.3048 N V 21 N "Val**"
+DS -7.9 1.5 7.7 1.5 0.15 21
+DS -7.8 -1.5 7.7 -1.5 0.15 21
+T2 6.35 -2.54 2 2 0 0.15 N V 21 N "6"
+T2 -6.27 -2.7 2 2 0 0.15 N V 21 N "1"
+DS -5.06 1.5 -5.06 -1.5 0.15 21
+DS 7.72 1.5 7.72 -1.5 0.15 21
+DS -7.86 -1.5 -7.86 1.5 0.15 21
+$PAD
+Sh "1" R 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" O 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" O 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" O 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" O 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" O 1.8 3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$EndMODULE HDR-6-HORIZ-L
+$EndLIBRARY

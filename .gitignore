@@ -1,0 +1,17 @@
+*.bak
+*.kicad_pcb-bak
+*-cache.lib
+*.net
+*.gbr
+*.gbs
+*.gbl
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.pho
+*.drl
+*.txt
+*.zip
+*.pdf
+*.plt
