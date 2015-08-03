@@ -1,4 +1,4 @@
-update=Sun 02 Aug 2015 21:20:03 BST
+update=Mon 03 Aug 2015 22:50:51 BST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -86,3 +86,4 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=led_extra
 LibName18=pin_header_ra
+LibName19=resistor-extra
