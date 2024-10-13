@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,15 +29,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:trafficlight-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Traffic Signal Head for Arduino"
-Date "2 aug 2015"
-Rev "1.01"
-Comp ""
+Date "2024-10-13"
+Rev "1.02"
+Comp "John Honniball"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -86,7 +85,7 @@ F 1 "Green LED" H 4900 2800 50  0000 C CNN
 F 2 "~" H 4900 2900 60  0000 C CNN
 F 3 "~" H 4900 2900 60  0000 C CNN
 	1    4900 2900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L LED D2
@@ -97,7 +96,7 @@ F 1 "Amber LED" H 4900 3200 50  0000 C CNN
 F 2 "~" H 4900 3300 60  0000 C CNN
 F 3 "~" H 4900 3300 60  0000 C CNN
 	1    4900 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L LED D3
@@ -108,17 +107,6 @@ F 1 "Red LED" H 4900 3600 50  0000 C CNN
 F 2 "~" H 4900 3700 60  0000 C CNN
 F 3 "~" H 4900 3700 60  0000 C CNN
 	1    4900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6 P1
-U 1 1 55AB6F2B
-P 3150 3300
-F 0 "P1" V 3100 3300 60  0000 C CNN
-F 1 "CONN_6" V 3200 3300 60  0000 C CNN
-F 2 "" H 3150 3300 60  0000 C CNN
-F 3 "" H 3150 3300 60  0000 C CNN
-	1    3150 3300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -133,21 +121,9 @@ F 3 "" H 5150 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2900 5150 2900
-Wire Wire Line
 	5150 2900 5150 4050
-Wire Wire Line
-	5100 3300 5150 3300
 Connection ~ 5150 3300
-Wire Wire Line
-	5100 3700 5150 3700
 Connection ~ 5150 3700
-Wire Wire Line
-	4550 3700 4700 3700
-Wire Wire Line
-	4550 3300 4700 3300
-Wire Wire Line
-	4550 2900 4700 2900
 Wire Wire Line
 	3500 3550 3600 3550
 Wire Wire Line
@@ -160,19 +136,19 @@ Wire Wire Line
 Wire Wire Line
 	3900 3050 3900 2900
 Wire Wire Line
-	3900 2900 4050 2900
+	3900 2900 4150 2900
 Wire Wire Line
 	3500 3150 3900 3150
 Wire Wire Line
 	3900 3150 3900 3300
 Wire Wire Line
-	3900 3300 4050 3300
+	3900 3300 4150 3300
 Wire Wire Line
 	3500 3250 3800 3250
 Wire Wire Line
 	3800 3250 3800 3700
 Wire Wire Line
-	3800 3700 4050 3700
+	3800 3700 4150 3700
 Text Label 3550 3250 0    60   ~ 0
 RED
 Text Label 3550 3150 0    60   ~ 0
@@ -193,4 +169,27 @@ Text Notes 2850 3100 0    60   ~ 0
 D9
 Text Notes 2250 3300 0    60   ~ 0
 Arduino\npin numbers
+$Comp
+L CONN_01X06 P1
+U 1 1 670C2FCB
+P 3300 3300
+F 0 "P1" H 3300 3650 50  0000 C CNN
+F 1 "CONN_01X06" V 3400 3300 50  0000 C CNN
+F 2 "" H 3300 3300 50  0000 C CNN
+F 3 "" H 3300 3300 50  0000 C CNN
+	1    3300 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 2900 4700 2900
+Wire Wire Line
+	4450 3300 4700 3300
+Wire Wire Line
+	4450 3700 4700 3700
+Wire Wire Line
+	5100 2900 5150 2900
+Wire Wire Line
+	5100 3300 5150 3300
+Wire Wire Line
+	5100 3700 5150 3700
 $EndSCHEMATC
