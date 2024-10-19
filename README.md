@@ -7,7 +7,7 @@ Just three LEDs, three resistors and a connector.
 ## Hardware ##
 
 PCB designed with KiCad
-(originally KiCad V3, now updated to V4.0.4).
+(originally KiCad V3, now updated to V5.1.5).
 Either 10mm or 8mm LEDs can be fitted.
 Best to select black soldermask,
 and make the edges of the PCB black with paint or a marker pen.
